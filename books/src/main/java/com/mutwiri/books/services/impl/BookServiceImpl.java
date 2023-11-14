@@ -26,7 +26,6 @@ public class BookServiceImpl implements BookService {
     public BookServiceImpl(final BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
-
     /*
      * above is the constructor that requires bookRepo ans assigns it to the
      * instance variable bookRepo
